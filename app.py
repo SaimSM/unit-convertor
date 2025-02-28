@@ -23,12 +23,10 @@ def get_bg_image_base64(image_path):
 common_units = {
     "Length": ["meter", "kilometer", "centimeter", "millimeter", "foot", "yard", "mile", "inch"],
     "Mass": ["gram", "kilogram", "milligram", "pound", "ounce"],
-    "Temperature": ["celsius", "fahrenheit", "kelvin"],
     "Volume": ["liter", "milliliter", "gallon", "quart", "pint"],
     "Time": ["second", "minute", "hour", "day"],
 }
 
-# Map temperature units to Pint's expected names for absolute conversion
 temperature_mapping = {
     "celsius": "degC",
     "fahrenheit": "degF",
